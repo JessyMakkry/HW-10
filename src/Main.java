@@ -5,10 +5,10 @@ public class Main {
         String middleName = "Ivanovich";
         String lastName = "Ivanov";
         String fullName = lastName + ' ' + firstName + ' ' + middleName;
-        System.out.println("Ф.И.О. сотрудника - " + fullName);
+        System.out.println("Ф. И. О. сотрудника - " + fullName);
         System.out.println("Task 2");
-        String taskName = fullName.toUpperCase();
-        System.out.println("Ф.И.О. сотрудника для заполнения отчёта - " + taskName);
+        fullName = fullName.toUpperCase();
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчёта - " + fullName);
         System.out.println("Task 3");
         fullName = "Иванов Семён Семёнович";
         fullName = fullName.replace('ё', 'е');
